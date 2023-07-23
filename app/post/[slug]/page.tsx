@@ -48,7 +48,7 @@ export default async function SlugPage({
                     {data.author}
                 </h3>
                 <p className="text-base font-medium leading-6 text-teal-500">
-                    {new Date(data._createdAt).toISOString().split("T")[0]}
+                    {data.date}
                 </p>
             </div>
           </div>
