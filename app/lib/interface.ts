@@ -5,7 +5,7 @@ export interface Post {
     author: string;
     content: any;
     _id: string;
-    _createdAt: string;
+    date: string;
     slug: {
         current: string;
     }

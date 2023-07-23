@@ -14,6 +14,11 @@ export default {
             title: 'Author',
         },
         {
+            name: 'date',
+            type: 'date',
+            title: 'Date'
+        },
+        {
             name: 'overview',
             type: 'string',
             title: 'Overview',

@@ -33,7 +33,7 @@ export default async function IndexPage() {
                     {post.author}
                   </p>
                   <p className="text-sm font-medium leading-2 tracking-tight text-gray-900 dark:text-gray-100">
-                    {new Date(post._createdAt).toISOString().split("T")[0]}
+                    {post.date}
                     </p>
                 </div>
 
