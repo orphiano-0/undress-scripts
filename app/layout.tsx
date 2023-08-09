@@ -8,7 +8,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Undress Scripts',
-  description: 'Articles and opinions on such',
+  description: 'Collections of opinions which does not matter',
 }
 
 export default function RootLayout({
