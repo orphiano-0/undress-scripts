@@ -8,7 +8,7 @@ export default function Navbar() {
                 <div className="flex justify-between items-center w-full">
                     <Link href="/">
                         <h1 className="text-2xl font-semibold">
-                            Un<span className="text-teal-500">dress</span>
+                            Un<span className="text-gray-600 dark:text-gray-400">dress</span>
                         </h1>
                     </Link>
                     <ThemeButton />
