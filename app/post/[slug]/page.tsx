@@ -14,7 +14,7 @@ async function getData(slug: string) {
 
 export const metadata = {
   title: "Undress Articles",
-  description: "Philosophy talk."
+  description: "Undress Scripts Articles",
 }
 
 export default async function SlugPage({
@@ -47,7 +47,7 @@ export default async function SlugPage({
                 <h3 className="text-2xl font-medium italic leading-9 tracking-tight text-gray-900 dark:text-gray-100">
                     {data.author}
                 </h3>
-                <p className="text-base font-medium leading-6 text-gray-300">
+                <p className="text-base font-medium leading-6 text-gray-900 dark:text-gray-100">
                     {data.date}
                 </p>
             </div>
